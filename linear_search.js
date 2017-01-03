@@ -23,6 +23,16 @@ console.log(linearSearch(9, random_numbers));
 console.log("Global Linear Search")
 let globalLinearSearch = (target, values) => {
   //write your code here
+  var hasil = [];
+  for (var i = 0; i < values.length; i++) {
+    if (values[i] == target){
+      hasil.push(i)
+    }
+  }
+  if (hasil == []){
+    return -1
+  }
+  return hasil
 }
 
 let banana_arr = "banana".split("");
