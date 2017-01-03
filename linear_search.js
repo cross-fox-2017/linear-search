@@ -45,3 +45,5 @@ let banana_arr = "banana".split("");
 // ["b", "a", "n", "a", "n", "a"]
 console.log(globalLinearSearch("a", banana_arr));
 // [ 1, 3, 5 ]
+ 
+ 
