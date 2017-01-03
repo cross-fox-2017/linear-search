@@ -29,7 +29,7 @@ let globalLinearSearch = (target, values) => {
       hasil.push(i)
     }
   }
-  console.log(values)
+  console.log(values);
   return hasil
 }
 
