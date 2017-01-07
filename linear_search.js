@@ -3,7 +3,14 @@
 // Release 0
 console.log("Linear Search")
 let linearSearch = (target, values) => {
-  //write your code here
+
+var hasil =0;
+var i=0;
+while (values[i]!=target) {
+  i++;
+  return values.indexOf(target);
+}
+// return hasil;
 }
 
 let random_numbers = [ 6, 29, 18, 2, 72, 19, 18, 10, 37 ];
