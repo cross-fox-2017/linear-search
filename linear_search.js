@@ -23,12 +23,12 @@ let globalLinearSearch = (target, values) => {
   var i=0;
   var arr =[];
     while (i<values.length) {
-      i++;
       if(target==values[i]){
         arr.push(i);
       }
+      i++;
     }
-  return arr;  
+  return arr;
 }
 
 let banana_arr = "banana".split("");
