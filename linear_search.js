@@ -3,7 +3,11 @@
 // Release 0
 console.log("Linear Search")
 let linearSearch = (target, values) => {
-  //write your code here
+var i=0;
+  while (values[i]!=target) {
+    i++;
+    return values.indexOf(target);
+  }
 }
 
 let random_numbers = [ 6, 29, 18, 2, 72, 19, 18, 10, 37 ];
@@ -16,7 +20,15 @@ console.log(linearSearch(9, random_numbers));
 // Release 1
 console.log("Global Linear Search")
 let globalLinearSearch = (target, values) => {
-  //write your code here
+  var i=0;
+  var arr =[];
+    while (i<values.length) {
+      if(target==values[i]){
+        arr.push(i);
+      }
+      i++;
+    }
+  return arr;
 }
 
 let banana_arr = "banana".split("");
